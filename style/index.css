@@ -93,7 +93,7 @@ body{
     .main{
         .principal{
             height: 90vh;
-            background-image: url(../assets/banner-bg.jpg);
+            background-image: url(../asset/banner-bg.jpg);
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
@@ -156,15 +156,58 @@ body{
             }
         }
         .gallery{
+            padding-top: 30px;
             display: grid;
-            grid-template-columns: repeat(auto-fit,minmax(10rem,1fr));
-            justify-items: center;
+            grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
             justify-content: center;
             gap:3rem;
 
             img{
-                width:18rem;
+                width:12rem;
             }
+            
+        }
+
+        
+        .aclamadas{
+            padding-top:30px;
+
+                .linea-Divisoria{
+                    width: 70%;
+                    height: 2px;
+                    background-color: var(--bgprimary);
+                }
+                .container-aclamadas{
+                    padding: 40px;
+                    display: grid;
+                    grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+                    justify-items: center;
+                    justify-content: center;
+                    gap:3rem;
+
+                    img{
+                        width:10rem;
+                    }
+                    
+                }  
+            
+        }
+    } 
+    .footer{
+        background-color: var(--bgprimary);
+        height: 12vh;
+        ul{
+            padding-top: 20px;
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            gap:1rem;
+            list-style: none;
+            font-size: 16px;
+        }
+        a{
+            display: flex;
+            justify-content: flex-end;
         }
     }
 }
