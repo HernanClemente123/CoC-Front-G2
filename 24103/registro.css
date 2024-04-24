@@ -1,0 +1,80 @@
+.registrarse{
+    height: 90vh;
+    background-image: url(../asset/img/bg-register.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    background-color: rgb(68,67,67);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:center;
+    gap:1.5rem;
+    padding:0 20%;
+}
+    .footer{
+        background-color: var(--bgprimary);
+        height: 12vh;
+        ul{
+            padding-top: 20px;
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            gap:1rem;
+            list-style: none;
+            font-size: 16px;
+        }
+        a{
+            display: flex;
+            justify-content: flex-end;
+        }
+    }
+    header{
+        background-color: var(--bgprimary);
+        height: 10vh;
+        
+        nav{
+            display:flex;
+            justify-content: space-between;
+            height: 100%;
+            margin: 0 2rem;
+            align-items: center;
+        .logo{
+            height: 50%;
+            display:flex;
+            align-items: center;
+            gap:0.5rem;
+        }
+        .logo:hover{
+            animation-name:logo;
+            animation-duration:0.15s;
+            animation-timing-function: ease;
+            animation-delay: inherit;
+        }
+            svg{
+                height: 100%;
+                width: auto;
+            }
+        }
+        ul{
+            display: flex;
+            gap:1rem;
+
+            li{
+                list-style-type: none;
+                padding: 0.5rem 1rem;
+                transition:box-shadow 0.2s ease-out;
+                border-radius:0.5rem;
+            }
+            li:hover{
+                box-shadow: 0px 0px 15px var(--bgsecundary);
+            }
+            li:last-child{
+                background-color: var(--bgsecundary);
+                a{
+                    background-color: var(--bgsecundary);
+                }
+            }
+        }
+    }

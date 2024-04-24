@@ -1,0 +1,15 @@
+.logueo{
+    height: 90vh;
+    background-image: url(../asset/img/bg-register.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    background-color: rgb(68,67,67);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:center;
+    gap:1.5rem;
+    padding:0 20%;
+}
