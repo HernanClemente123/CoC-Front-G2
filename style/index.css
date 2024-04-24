@@ -170,14 +170,21 @@ body{
 
         
         .aclamadas{
-            padding-top:30px;
+            padding-top:60px;
+
+            .titulo-aclamadas{
+                display:flex;
+                justify-content: center;
+                align-items: center;
 
                 .linea-Divisoria{
-                    width: 70%;
+                    width: 50%;
                     height: 2px;
                     background-color: var(--bgprimary);
                 }
-                .container-aclamadas{
+            }
+            
+            .container-aclamadas{
                     padding: 40px;
                     display: grid;
                     grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
@@ -193,6 +200,11 @@ body{
             
         }
     } 
+    .aclamada-publico{
+        padding-top: 60px;
+        text-align: center;
+        padding-bottom: 30px;
+    }
     .footer{
         background-color: var(--bgprimary);
         height: 12vh;
@@ -204,10 +216,27 @@ body{
             gap:1rem;
             list-style: none;
             font-size: 16px;
+            li{
+                list-style-type: none;
+                padding: 0.5rem 1rem;
+                transition:box-shadow 0.2s ease-out;
+                border-radius:0.5rem;
+            }
+            li:hover{
+                box-shadow: 0px 0px 15px var(--bgsecundary);
+            }
+            li:last-child{
+                background-color: var(--bgsecundary);
+                a{
+                    background-color: var(--bgsecundary);
+                }
+            }
         }
         a{
             display: flex;
             justify-content: flex-end;
         }
+
     }
 }
+
