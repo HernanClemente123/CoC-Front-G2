@@ -1,0 +1,23 @@
+
+.container{
+    margin: 50px;
+    
+}
+.container h1{
+    padding-bottom: 20px;
+}
+
+.container p{
+    text-align: justify;
+    padding-bottom: 20px;
+}
+.checkbox-container{
+    padding-bottom: 20px;
+}
+
+.container button{
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 5px 5px 5px 5px;
+    
+}
