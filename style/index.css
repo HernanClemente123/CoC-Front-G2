@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -36,7 +37,9 @@ a{
 body{
     background-color:var(--bgsecundary);
     color: var(--bgtextcolor);
-    font-family: "Roboto", sans-serif;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 
 
     header{
@@ -75,14 +78,17 @@ body{
                 padding: 0.5rem 1rem;
                 transition:box-shadow 0.2s ease-out;
                 border-radius:0.5rem;
+                
             }
             li:hover{
                 box-shadow: 0px 0px 15px var(--bgsecundary);
             }
             li:last-child{
                 background-color: var(--bgsecundary);
+                
                 a{
                     background-color: var(--bgsecundary);
+                    
                 }
             }
         }
@@ -107,18 +113,29 @@ body{
             padding:0 20%;
 
             h1{
-                font-size: 3rem;
+                font-size: 2.5rem;
                 text-align: center;
             }
             h2{
-                font-size: 2rem;
+                font-size: 1.5rem;
                 font-weight: 400;
                 text-align: center;
             }
             .mainButton{
                 background-color: var(--bgprimary);
-                padding: 0.5rem 1.25rem;
-                border-radius: 1.5rem;
+                padding: 1rem 1.25rem;
+                border-radius: 0.5rem;
+                -webkit-transition:all .9s ease;
+                -moz-transition:all .9s ease;
+                -o-transition:all .9s ease; 
+                -ms-transition:all .9s ease;
+            }
+            .mainButton:hover{
+                -webkit-transform:scale(1.25);
+                -moz-transform:scale(1.25);
+                -ms-transform:scale(1.25);
+                -o-transform:scale(1.25);
+                transform:scale(1.25);
             }
             
         }
@@ -133,7 +150,7 @@ body{
                 .searchInput{
                     width:20rem;
                     height:2.25rem;
-                    font-size: 1.25rem;
+                    font-size: 1rem;
                     border-radius: 1rem;
                     padding: 0 0.75rem;
                     border: 2px solid white;
@@ -141,12 +158,23 @@ body{
                 .searchButton{
                     width:8rem;
                     height:2.25rem;
-                    font-size: 1.25rem;
+                    font-size: 1rem;
                     border-radius: 1rem;
                     padding: 0 0.75rem;
                     border: 2px solid white;
                     background-color: var(--bgprimary);
                     color:white;
+                    -webkit-transition:all .9s ease; 
+                    -moz-transition:all .9s ease; 
+                    -o-transition:all .9s ease; 
+                    -ms-transition:all .9s ease;
+                }
+                .searchButton:hover{
+                    -webkit-transform:scale(1.25);
+                    -moz-transform:scale(1.25);
+                    -ms-transform:scale(1.25);
+                    -o-transform:scale(1.25);
+                    transform:scale(1.25);
                 }
             }
             .line{
@@ -156,6 +184,8 @@ body{
             }
         }
         .gallery{
+            
+            div {
             padding-top: 30px;
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
@@ -165,10 +195,8 @@ body{
             img{
                 width:12rem;
             }
-            
         }
-
-        
+    }
         .aclamadas{
             padding-top:60px;
 
@@ -176,6 +204,10 @@ body{
                 display:flex;
                 justify-content: center;
                 align-items: center;
+                -webkit-transition:all .9s ease;
+                -moz-transition:all .9s ease;
+                -o-transition:all .9s ease; 
+                -ms-transition:all .9s ease;
 
                 .linea-Divisoria{
                     width: 50%;
@@ -204,10 +236,15 @@ body{
         padding-top: 60px;
         text-align: center;
         padding-bottom: 30px;
+        -webkit-transition:all .9s ease;
+        -moz-transition:all .9s ease;
+        -o-transition:all .9s ease; 
+        -ms-transition:all .9s ease;
+        
     }
     .footer{
         background-color: var(--bgprimary);
-        height: 12vh;
+        height: 15vh;
         ul{
             padding-top: 20px;
             display: flex;
@@ -240,3 +277,57 @@ body{
     }
 }
 
+.main h2{
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+} 
+.container-boton{
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+
+.container-boton button{
+    width:8rem;
+    height:3rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    border: 2px solid rgb(36, 35, 35);
+    background-color: var(--bgprimary);
+    color:white;
+    -webkit-transition:all .9s ease; 
+    -moz-transition:all .9s ease; 
+    -o-transition:all .9s ease; 
+    -ms-transition:all .9s ease; 
+    
+    }
+
+.container-boton button:hover, .aclamada-publico:hover, .titulo-aclamadas:hover{
+    -webkit-transform:scale(1.25);
+    -moz-transform:scale(1.25);
+    -ms-transform:scale(1.25);
+    -o-transform:scale(1.25);
+    transform:scale(1.25);
+
+}
+
+
+.img-contenedor img{
+    -webkit-transition:all .9s ease;
+    -moz-transition:all .9s ease;
+    -o-transition:all .9s ease; 
+    -ms-transition:all .9s ease;
+    width:100%;
+}
+.img-contenedor:hover img {
+    -webkit-transform:scale(1.25);
+    -moz-transform:scale(1.25);
+    -ms-transform:scale(1.25);
+    -o-transform:scale(1.25);
+    transform:scale(1.25);
+    }
+
+    
