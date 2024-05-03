@@ -125,10 +125,11 @@ body{
                 background-color: var(--bgprimary);
                 padding: 1rem 1.25rem;
                 border-radius: 0.5rem;
-                -webkit-transition:all .9s ease;
-                -moz-transition:all .9s ease;
-                -o-transition:all .9s ease; 
-                -ms-transition:all .9s ease;
+                -webkit-transform:all .9s ease;
+                -moz-transform:all .9s ease;
+                -o-transform:all .9s ease; 
+                -ms-transform:all .9s ease;
+                transform: .9s;
             }
             .mainButton:hover{
                 -webkit-transform:scale(1.25);
@@ -164,10 +165,11 @@ body{
                     border: 2px solid white;
                     background-color: var(--bgprimary);
                     color:white;
-                    -webkit-transition:all .9s ease; 
-                    -moz-transition:all .9s ease; 
-                    -o-transition:all .9s ease; 
-                    -ms-transition:all .9s ease;
+                    -webkit-transform:all .9s ease; 
+                    -moz-transform:all .9s ease; 
+                    -o-transform:all .9s ease; 
+                    -ms-transform:all .9s ease;
+                    transform: scale(0.9) ease;
                 }
                 .searchButton:hover{
                     -webkit-transform:scale(1.25);
@@ -204,10 +206,11 @@ body{
                 display:flex;
                 justify-content: center;
                 align-items: center;
-                -webkit-transition:all .9s ease;
-                -moz-transition:all .9s ease;
-                -o-transition:all .9s ease; 
-                -ms-transition:all .9s ease;
+                -webkit-transform:all .9s ease; 
+                -moz-transform:all .9s ease; 
+                -o-transform:all .9s ease; 
+                -ms-transform:all .9s ease;
+                transform: scale(0.9) ease;
 
                 .linea-Divisoria{
                     width: 50%;
@@ -223,7 +226,7 @@ body{
                     justify-items: center;
                     justify-content: center;
                     gap:3rem;
-
+                    
                     img{
                         width:10rem;
                     }
@@ -236,12 +239,14 @@ body{
         padding-top: 60px;
         text-align: center;
         padding-bottom: 30px;
-        -webkit-transition:all .9s ease;
-        -moz-transition:all .9s ease;
-        -o-transition:all .9s ease; 
-        -ms-transition:all .9s ease;
+        -webkit-transform:all .9s ease; 
+        -moz-transform:all .9s ease; 
+        -o-transform:all .9s ease; 
+        -ms-transform:all .9s ease;
+        transform: scale(0.9) ease;
         
     }
+    
     .footer{
         background-color: var(--bgprimary);
         height: 15vh;
@@ -298,11 +303,11 @@ body{
     border: 2px solid rgb(36, 35, 35);
     background-color: var(--bgprimary);
     color:white;
-    -webkit-transition:all .9s ease; 
-    -moz-transition:all .9s ease; 
-    -o-transition:all .9s ease; 
-    -ms-transition:all .9s ease; 
-    
+    -webkit-transform:all .9s ease; 
+    -moz-transform:all .9s ease; 
+    -o-transform:all .9s ease; 
+    -ms-transform:all .9s ease;
+    transform: scale(0.9) ease;
     }
 
 .container-boton button:hover, .aclamada-publico:hover, .titulo-aclamadas:hover{
@@ -316,10 +321,11 @@ body{
 
 
 .img-contenedor img{
-    -webkit-transition:all .9s ease;
-    -moz-transition:all .9s ease;
-    -o-transition:all .9s ease; 
-    -ms-transition:all .9s ease;
+    -webkit-transform:all .9s ease; 
+    -moz-transform:all .9s ease; 
+    -o-transform:all .9s ease; 
+    -ms-transform:all .9s ease;
+    transform: scale(0.9) ease;
     width:100%;
 }
 .img-contenedor:hover img {
