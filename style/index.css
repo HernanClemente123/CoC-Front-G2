@@ -193,7 +193,8 @@ body{
             grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
             justify-content: center;
             gap:3rem;
-
+            margin: 6%;
+                
             img{
                 width:12rem;
             }
@@ -225,7 +226,7 @@ body{
                     grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
                     justify-items: center;
                     justify-content: center;
-                    gap:3rem;
+                    gap:5rem;
                     
                     img{
                         width:10rem;
