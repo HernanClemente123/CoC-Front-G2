@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/index.css">
+    <link rel="stylesheet" href="../style/registro.css">
+    <title>Registro</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/index.html" class="logo">
+                <span class="material-symbols-outlined">
+                    theaters
+                </span>
+                <span>CAC-Movies</span>
+            </a>
+        </nav>
+    </header>
+    <main class="main" id="main">
+        <section class="registrarse">
+
+            <form  id="myForm" action method="get" class="form-register">
+                <h2 class="titulo-registrarse">Registrarse</h2>     
+                
+                <div class="casilla">
+                    <input class="name" type="text" placeholder="nombre" id="nombre" name="nombre">
+        
+                    <span id="errorName" class="error"></span>
+                    
+                </div>
+
+                <div class="casilla">
+                    <input class="name" type="text" placeholder="apellido" id="lastName" name="lastName">
+                    <span id="errorLastName" class="error"></span>
+                </div>
+
+                <div class="casilla"><input class="name" type="text" placeholder="email" id="email" name="email">
+                    <span id="errorEmail" class="error"></span>
+                </div>
+          
+                <div class="casilla">
+                    <input class="name" type="password" placeholder="password" id="password" name="password">
+                    <span id="errorPassword" class="error"></span>
+                </div>
+
+                <div class="casilla">
+                    <input class="name" type="password" placeholder="password" id="confirmarPassword" name="confirmarPassword">
+                    <span id="confirmarErrorPassword" class="confirmarError"></span>
+                </div>
+
+                <div class="casilla"><input class="name" type="date" placeholder="dd/mm/aa" name="datos" ></div>
+                <div class="casilla"><input class="name" type="text" placeholder="pais" id="pais" name="pais"></div>
+                <input class="name" onclick="return validar(this.form)" type="submit" value="registro">
+            </form>
+
+        </section>
+        <section></section>
+        <section></section>
+    </main>
+
+<script src="../js/main.js"></script>
+
+</body>
+</html>

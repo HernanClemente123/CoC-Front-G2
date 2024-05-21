@@ -1,0 +1,58 @@
+
+.logueo{
+    height: 90vh;
+    background-image: url(../asset/bg-register.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    background-color: rgb(68,67,67);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:center;
+    gap:1.5rem;
+    padding:0 20%;
+}
+
+.form-login{
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    width: 30rem;
+    height: 30rem;
+    text-align: center;
+    border-radius: 5%;
+    
+    
+
+}
+.titulo-iniciar{
+    margin-top: 29%;
+    text-align: center;
+}
+.casilla{
+    margin: 20px;
+  }
+.name{
+    height: 2rem;
+    width: 15rem;
+    font-size: 1.25rem;
+    border-radius: 1rem;
+    padding: 0 0.75rem;
+    border: 2px solid white;
+    background: transparent;
+    text-align: center;
+  }
+  .boton{
+    width: 15rem;
+    height:2rem;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+
+  }
