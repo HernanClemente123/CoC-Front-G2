@@ -27,8 +27,7 @@
                 <h2 class="titulo-registrarse">Registrarse</h2>     
                 
                 <div class="casilla">
-                    <input class="name" type="text" placeholder="nombre" id="nombre" name="nombre">
-        
+                    <input class="name" type="text" placeholder="nombre" id="name" name="name">
                     <span id="errorName" class="error"></span>
                     
                 </div>
@@ -52,9 +51,15 @@
                     <span id="confirmarErrorPassword" class="confirmarError"></span>
                 </div>
 
-                <div class="casilla"><input class="name" type="date" placeholder="dd/mm/aa" name="datos" ></div>
-                <div class="casilla"><input class="name" type="text" placeholder="pais" id="pais" name="pais"></div>
-                <input class="name" onclick="return validar(this.form)" type="submit" value="registro">
+                <div class="casilla">
+                    <input class="name" type="date" placeholder="dd/mm/aa" name="datos" >
+                </div>
+                <div class="casilla">
+                    <input class="name" type="text" placeholder="pais" id="pais" name="pais">
+                </div>
+
+                <input class="boton" type="button" onclick="return validar(this.form)" type="submit" value="registro">
+                
             </form>
 
         </section>
