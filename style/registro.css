@@ -40,8 +40,10 @@ background: transparent;
 text-align: center;
 }
 .casilla{
-margin: 20px;
-}
+    margin: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    }
 .boton{
 width: 15rem;
 height:2rem;
